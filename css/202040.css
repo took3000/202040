@@ -1,1 +1,7 @@
-.img{width:28%;}
+.opp img{
+ display: block;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+}
