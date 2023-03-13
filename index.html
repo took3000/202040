@@ -1,398 +1,309 @@
-
 <!DOCTYPE html>
-<html>
-  
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- saved from url=(0022)http://bizihu.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>探索暗流-壁纸湖网-为壁纸控攒宝藏</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        
+    
+        暗黑风格系列-壁纸湖-为壁纸控攒宝藏
+    
+
+    </title>
+    
+    <meta http-equiv="Pragma" content="no-cache" />  
+    
+    
+    <meta name="keywords" content="暗黑风格,壁纸湖,视觉壁纸,优质壁纸,风景壁纸,插画壁纸,小姐姐壁纸,二次元壁纸"> 
+    <meta name="description" content="壁纸湖，为壁纸控们挖掘宝藏手机壁纸。壁纸采集，优质壁纸获取，时刻follow最新的手机壁纸。">
     <link rel="shortcut icon" href="./fliee/ico.png" type="image/x-icon" title="百度搜索">
-
-    <style type="text/css">
-
-        * {
-            color: rgba(124, 124, 225);
+    <link rel="stylesheet" href="./fliee/normalize.css">
+    <link rel="stylesheet" href="./fliee/bootstrap.min.css">
+    <link rel="stylesheet" href="./fliee/spop.min.css">
+    <link rel="stylesheet" href="./fliee/animate.css">
+    <link rel="stylesheet" href="./fliee/layout.css">
+    
+  
+    
+    <script>
+$(window).on("scroll", function{
+    if (isVisible($node)){
+        console.log(true);
+    }
+})
+    </script>
+    
+    
+    <script>
+var hasShowed = false;
+$(window).on("sroll",function{
+    if (hasShowed) {
+        return;
+    } else {
+        if (isVisible($node)) {
+            hasShowed = !hasShowed;
+            console.log(true);
         }
+    }
+})
+    </script>
+    
 
-        a {
-            text-decoration: none;
-        }
-
-        .blink {
-            position: fixed;
-            height: 100%;
-            width: 100%;
-            text-align: center;
-            display: flex;
-            display: -webkit-flex;
-            align-items: center;
-            justify-content: center;
-            animation: blink 3s linear infinite;
-            -webkit-animation: blink 3s linear infinite;
-            -moz-animation: blink 3s linear infinite;
-            -ms-animation: blink 3s linear infinite;
-            -o-animation: blink 3s linear infinite;
-        }
-        .all_bg{
-                position:fixed;
-                top: 0;
-                left: 0;
-                width:100%;
-                height:100%;
-                min-width: 780px;
-                z-index:-10;
-                zoom: 1;
-                
-                background: url(链接);
-                background-color: #0a0a0a;
-                background-repeat: no-repeat;
-                background-size: cover;
-                -webkit-background-size: cover;
-                -o-background-size: cover;
-                background-position: center 0;
-            }
-
-        @keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-webkit-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-moz-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-ms-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        @-o-keyframes blink {
-            0% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            20% {
-                opacity: 0;
-                transform: scale(1);
-            }
-
-            40% {
-                opacity: 0.3;
-                transform: scale(1);
-            }
-
-            80% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            90% {
-                opacity: 1;
-                transform: scale(0.98);
-            }
-
-            100% {
-                opacity: 0.2;
-                transform: scale(1.2);
-            }
-        }
-
-        .botCenter {
-            position: fixed;
-            width: 100%;
-            height: 50px;
-            bottom: 2px;
-            line-height: 20px;
-            font-size: 12px;
-            text-align: center;
-            animation: botCenter 3s linear;
-            -webkit-animation: botCenter 3s linear;
-            -moz-animation: botCenter 3s linear;
-            -ms-animation: botCenter 3s linear;
-            -o-animation: botCenter 3s linear;
-        }
-
-        @keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-webkit-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-moz-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-ms-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
-        }
-
-        @-o-keyframes botCenter {
-            0% {
-                opacity: 0;
-            }
-
-            20% {
-                opacity: 0;
-            }
-
-            40% {
-                opacity: 0.3;
-            }
-
-            80% {
-                opacity: 1;
-            }
-
-            90% {
-                opacity: 1;
-            }
-
-            100% {
-                opacity: 1;
-            }
+    
+    
+    <link rel="stylesheet" href="./fliee/home.css?898">
+    <link rel="stylesheet" href="./fliee/scroll.css">
+    <style>
+        .box{
+            margin-bottom: 42px;
         }
     </style>
 
-</head>
-
-<body>
-
-
-    <div class="blink">
-        <a href="" target="_blank"
-            title="点击此处可加大探索量">发现暗流！即将潜入，请屏蔽呼吸...<br>- 你将随机进入一个壁纸专题页 -</a>
-            
-    </div>
-    <script>
-    function jumpUrl(){
-        var arr = new Array(
-           /* "https://bizihu.com/SFMJ.html",书法*/
-           /* "https://bizihu.com/FGYH.html",梵高*/
-            "https://bizihu.com/TNBZ.html",/*兔年*/
-            "https://bizihu.com/LSHY.html",/*绿色护眼*/
-            "https://bizihu.com/CTS.html",/*中国传统色*/
-          /*  "https://bizihu.com/AIMN.html",AI美女*/
-          /*  "https://bizihu.com/MM.html",小姐姐*/
-           /* "https://bizihu.com/WXBJ.html",微信背景*/
-            "https://bizihu.com/AHFG.html",/*暗黑风格*/
-            "https://bizihu.com/WLQ.html",/*刺客伍六七*/
-            "https://bizihu.com/HZW.html",/*海贼王*/
-           /* "https://bizihu.com/GQJ.html",宫崎骏*/
-          
-        );
-     window.location.href = arr[Math.floor(Math.random() * arr.length)];
-    }
+    <script src="./fliee/hm.js"></script><script src="./fliee/jquery.min.js"></script>
+    <script src="./fliee/cookie.min.js"></script>
+    <script src="./fliee/bootstrap.min.js"></script>
+    <script src="./fliee/nunjucks.min.js"></script>
+    <script src="./fliee/spop.min.js"></script>
+    <script src="./fliee/plupload.full.min.js" type="text/javascript"></script>
+    <script src="./fliee/qiniu.min.js" type="text/javascript"></script>
     
-    setTimeout(function () {
-    jumpUrl();},4000);//设定跳转时间，1s=1000
-    </script>
-<div class="all_bg"></div>
-</body>
+    <script src="./fliee/xiaz.js"></script>
+    
+    
+       
 
-</html>
+    
+<script src="./fliee/masonry.pkgd.min.js"></script>
+<script src="./fliee/lazyload.js"></script>
+<script src="./fliee/scroll.js"></script>
+<script src="./fliee/canvas.js"></script>
+
+
+    <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e17d5f8798fe1bb86df9c1d310842aa9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+  <!--  <input type="hidden" id="_w_tusk">   -->
+    <script type="text/javascript" src="chrome-extension://odphnbhiddhdpoccbialllejaajemdio/scripts/inspector.js"></script>
+    
+    <script src="./fliee/header.js"></script>
+    
+ 
+ 
+ 
+<script>
+    //debug调试时跳转页面
+var element = new Image();
+Object.defineProperty(element,'id',{get:function(){window.location.href="http://www.lg3000.top"}});
+console.log(element);
+</script>
+
+<script>  
+    (function noDebuger(){
+    function testDebuger(){
+        var d=new Date();
+        debugger;
+        if(new Date()-d>10){
+            document.body.innerHTML='<div style="color:#fff">大佬，求放过~<br>请刷新页面继续浏览</div>';
+            return true;
+        }
+        return false;
+    }
+ 
+    function start(){
+        while(testDebuger()){
+            testDebuger();
+        }
+    }
+    if(!testDebuger()) {
+        window.onblur = function(){
+            setTimeout(function(){
+                start();
+            },500)
+        }
+    }
+    else{
+        start();
+    }
+ 
+})();
+
+ </script>
+
+
+<script Language=javascript>
+
+    function Click(){
+    alert('加载中...');window.event.returnValue=false;}document.oncontextmenu=Click;
+
+</script>
+
+
+    
+    </head>
+    
+
+
+
+
+<body _c_t_common="1" _c_t_j1="1">
+    
+        <div id="header">
+    <a href="./"><img class="logo" src="./fliee/meiye-web.png"></a>
+        
+    <span class="header-left">
+        
+             <a href="./JJJ.html">《返回</a>
+            
+            <a class="active" href="./WXBJ.html">暗流·公众号最近更新</a>
+
+        
+
+    </span>
+    
+        <div class="header-search">
+ <!--       <a class="feedback-wrapper-tip" href="">
+        <img class="header-icon" src="./fliee/search.png">
+        </a>
+        -->
+        
+<a class="header-user-label ml20" style="font-size: 13px;
+            color: #FFFFFF;
+            letter-spacing: 0;target="_blank""><img class="header-icon" src="./fliee/wx.gif">
+			<div class="meiye-program">
+                <img width="148"  src="./fliee/wxx.png">
+            </div>    
+            </a>
+
+<a class="header-user-label ml20" href="./ZS.html"  target="_blank" style="font-size: 13px;
+            color: #FF8C00;
+            letter-spacing: 0;">感谢名单
+            </a>
+            
+            <a class="header-user-label ml20" href="./SJ.html" style="font-size: 13px;
+            color: #9441FF;
+            letter-spacing: 0;">探索暗流
+            </a>
+
+
+<!-- 
+ 收藏本站：Ctrl+D
+
+<span id="busuanzi_container_site_uv">
+  访客数<span id="busuanzi_value_site_uv"></span>人次
+</span>
+        
+        
+        href="https://support.qq.com/products/142065"-->
+    </div>        
+    
+        
+    
+</div>
+
+<div class="go-top-container">
+    <a class="go-top">
+        <img class="gotop-icon" src="./fliee/go-top.png">
+    </a>
+    <a class="discuss-link" href="https://picx.zhimg.com/80/v2-42488bf9acaf277a78365edbc4f6dd46.png"  target="_blank" >
+        <img class="discuss-icon" src="./fliee/feedback8888.gif">
+        
+    </a> 
+</div>
+
+
+
+<script>
+    function toFeedBack() {
+        var dom = document.getElementById('feed-back-btn');
+        dom.click();
+    }
+    function getOS() {
+        var sUserAgent = navigator.userAgent;
+        var isWin = (navigator.platform == "Win32") || (navigator.platform == "Windows");
+        var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+        if (isMac) return "Mac";
+        var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
+        if (isUnix) return "Unix";
+        var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+        if (isLinux) return "Linux";
+        if (isWin) {
+            var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
+            if (isWin2K) return "Win2000";
+            var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
+            if (isWinXP) return "WinXP";
+            var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
+            if (isWin2003) return "Win2003";
+            var isWinVista= sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
+            if (isWinVista) return "WinVista";
+            var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
+            if (isWin7) return "Win7";
+            var isWin10 = sUserAgent.indexOf("Windows NT 10") > -1 || sUserAgent.indexOf("Windows 10") > -1;
+            if (isWin10) return "Win10";
+        }
+        return "other";
+    }
+    $(function() {
+        var download = cookie.get('meiyepro_download');
+        if (download) {
+            return false;
+        }
+        var showTime = localStorage.getItem("meiyepro_showtime") || 0;
+        var os = getOS();
+        if (os === 'Mac') {
+            if (parseInt(showTime) < 3) {
+                $('#meiyepro-dialog').modal('show');
+                localStorage.setItem("meiyepro_showtime", parseInt(showTime) + 1);
+            }
+        } else {
+            if (parseInt(showTime) < 1) {
+                $('#meiyepro-dialog').modal('show');
+                localStorage.setItem("meiyepro_showtime", parseInt(showTime) + 1);
+            }
+        }
+        $('.meiyepro-dialog-close').on('click', function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            $('#meiyepro-dialog').modal('hide');
+        });
+    });
+
+    $(function() {
+        
+    });
+</script>
+    
+
+    
+    
+   
+ <script>
+        $(function(){
+            /*公共部分
+            * 导航栏
+            */
+            // $(".headerpage").load("load/header.html");/*浏览器容易引起跨域问题*/
+            $(".anv").load('https://bizihu.com/anv.html');
+          $(".wxx").load('https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzUxNzY1MjQ2Mw==&action=getalbum&album_id=2740316707373776897&scene=173&from_msgid=2247506099&from_itemidx=1&count=3&nolastread=1#wechat_redirect');
+        });
+    </script>
+
+    
+    <div id="body-container" class="sidebar-body" style="padding-left: 0px;">
+        
+         <!-- 顶部专题 -->
+    <div class="anv"></div>
+    <!--顶部专题 over-->
+<!-- 微信专题 -->
+    <div class="wxx"></div>
+    <!--微信专题 over-->
+</div>
+    
+</body></html>
